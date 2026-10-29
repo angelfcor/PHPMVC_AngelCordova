@@ -7,6 +7,9 @@ use Dao\Table;
 const PROYECTOS_INSERT = "INSERT INTO proyectos (name, status, owner, client, create_time) values(:name, :status, :owner, :client, now())";
 
 class Proyectos extends Table {
+    //CRUD
+    //Create,Read, Update, Delete
+
     private function __construct()
     {
         throw new \Exception('Not implemented');
