@@ -29,6 +29,26 @@
             <button type="submit" name="btnEnviar">Enviar</button>
     </form>
 </section>
+{{if proyectos}}
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Client</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{foreach proyectos}}
+            <tr>
+                <td>{{id}}</td>
+                <td>{{name}}</td>
+                <td>{{client}}</td>
+            </tr>
+            {{endfor proyectos}}
+        </tbody>
+    </table>
+{{endif proyectos}}
 {{if postMessage}}
 <section>
     <em>

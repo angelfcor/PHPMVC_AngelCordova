@@ -9,6 +9,8 @@ class Me extends PublicController {
     public function run() :void {
         $tmpViewData = MeDao::getProfile();
         $tmpViewData["txtNombre"] = "";
+        $tmpProyecto = ProyectosDao::getAll();
+        $tmpViewData["proyectos"] = $tmpProyecto;
         if ($this->isPostBack()) {
             $tmpViewData["txtNombre"] = $_POST["txtNombre"] ?? "";
             $tmpViewData["postMessage"] = $tmpViewData["txtNombre"] ? 
