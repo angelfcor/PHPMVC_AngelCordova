@@ -71,6 +71,9 @@ class Products extends Table
         if ($page > $pagesCount - 1) {
             $page = $pagesCount - 1;
         }
+        if ($page < 0) {
+            $page = 0;
+        }
         $sqlstr .= " LIMIT " . $page * $itemsPerPage . ", " . $itemsPerPage;
 
         $registros = self::obtenerRegistros($sqlstr, $params);
