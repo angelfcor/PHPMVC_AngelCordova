@@ -14,6 +14,21 @@
       "id": "Menu_Products",
       "nav_url": "index.php?page=Products_Products",
       "nav_label":"<i class=\"fas fa-table\"></i>&nbsp;WW Productos"
+    },
+     {
+      "id": "Menu_Usuarios",
+      "nav_url": "index.php?page=Security_Usuarios",
+      "nav_label":"<i class=\"fas fa-users\"></i>&nbsp;WW Usuarios"
+    },
+     {
+      "id": "Menu_Roles",
+      "nav_url": "index.php?page=Security_Roles",
+      "nav_label":"<i class=\"fas fa-id-badge\"></i>&nbsp;WW Roles"
+    },
+     {
+      "id": "Menu_Funciones",
+      "nav_url": "index.php?page=Security_Funciones",
+      "nav_label":"<i class=\"fas fa-cogs\"></i>&nbsp;WW Funciones"
     }
   ],
   "private": [
