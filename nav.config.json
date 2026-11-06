@@ -29,6 +29,11 @@
       "id": "Menu_Funciones",
       "nav_url": "index.php?page=Security_Funciones",
       "nav_label":"<i class=\"fas fa-cogs\"></i>&nbsp;WW Funciones"
+    },
+     {
+      "id": "Menu_Cursos",
+      "nav_url": "index.php?page=Cursos_Cursos",
+      "nav_label":"<i class=\"fas fa-graduation-cap\"></i>&nbsp;WW Cursos"
     }
   ],
   "private": [
